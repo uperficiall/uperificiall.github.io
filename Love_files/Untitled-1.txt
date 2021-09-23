@@ -1,0 +1,8 @@
+#include <stdio.h>
+main()
+{
+    double x=123.46;
+    x=(int)x;
+    x=x/100;
+    printf("%f",x);
+}
